@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../login/widgets/button_item.dart';
 
 class SignUpBottomSection extends StatelessWidget {
   const SignUpBottomSection({super.key});
@@ -10,12 +9,6 @@ class SignUpBottomSection extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          ButtonItem(
-              title: "SIGN UP",
-              onPress: () {
-                Navigator.pushNamed(context, '/LoginPage');
-              },
-              buttonWidth: MediaQuery.of(context).size.width * 0.75),
           SizedBox(height: 20,),
           Container(
             width: MediaQuery.of(context).size.width * 0.6,

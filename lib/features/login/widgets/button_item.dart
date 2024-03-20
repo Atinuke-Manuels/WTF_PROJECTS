@@ -8,7 +8,7 @@ class ButtonItem extends StatelessWidget {
     required this.buttonWidth,
     this.arrowIcon,
   });
-  final String title;
+  final Widget title;
   final Function () onPress;
   final double buttonWidth;
   final Icon? arrowIcon;
@@ -34,9 +34,7 @@ class ButtonItem extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(title, style: TextStyle(color: Colors.white, fontSize: 16),
-              textAlign: TextAlign.center,
-            ),
+            title,
             SizedBox(width: 30),
             if (arrowIcon != null) arrowIcon!,
           ],
