@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Onboarding_Project</string>
+    <!--    for the main page-->
+    <string name="team_work">Team Work all</string>
+    <string name="sub_text">We are excited to have you onboard \n work with us as we \n bring exciting content your way.</string>
+    <string name="home_sign_In">Sign in</string>
+    <string name="register">Register</string>
+
+    <!--    for the sign in page-->
+    <string name="Email">Email,phone &amp; username </string>
+    <string name="password">password</string>
+    <string name="let_sign_you_in">Let\'s Sign you in</string>
+    <string name="welcome_back">Welcome Back,\nYou have been missed</string>
+    <string name="forgot">forgot password ?</string>
+    <string name="signIn">Sign in</string>
+    <string name="or">or</string>
+    <string name="do_not_have_an_account">Don\'t have an account?</string>
+    <string name="register_now"> Register Now</string>
+
+    <!--    for register page-->
+    <string name="let_register_your_acct">Let\'s Register Your Account</string>
+    <string name="hello_user">Hello user, please provide \nthe information below</string>
+    <string name="already_have_acct">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="name_input">Name</string>
+    <string name="user_name">User Name</string>
+    <string name="phone">Phone</string>
+    <string name="email_input">Email</string>
+    <string name="signUp">Sign Up</string>
+
+<!--    for the home page-->
+    <string name="homeTitle">TODO LIST</string>
+</resources>
